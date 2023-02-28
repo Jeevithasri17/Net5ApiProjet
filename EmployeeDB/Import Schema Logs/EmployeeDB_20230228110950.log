@@ -1,0 +1,87 @@
+28-02-2023 16:39:50	This log contains information about the import schema operation into project 'EmployeeDB' on computer 'KANINI-LTP-478' by user 'Administrator'.
+28-02-2023 16:39:50	Import of database schema has started.
+28-02-2023 16:39:59	Gathering database credentials
+28-02-2023 16:39:59	Gathering database options
+28-02-2023 16:39:59	Gathering generic database scoped configuration option
+28-02-2023 16:39:59	Gathering users
+28-02-2023 16:39:59	Gathering roles
+28-02-2023 16:39:59	Gathering application roles
+28-02-2023 16:39:59	Gathering role memberships
+28-02-2023 16:39:59	Gathering filegroups
+28-02-2023 16:39:59	Gathering full-text catalogs
+28-02-2023 16:39:59	Gathering assemblies
+28-02-2023 16:39:59	Gathering certificates
+28-02-2023 16:39:59	Gathering asymmetric keys
+28-02-2023 16:39:59	Gathering symmetric keys
+28-02-2023 16:39:59	Gathering encrypted symmetric keys
+28-02-2023 16:39:59	Gathering schemas
+28-02-2023 16:39:59	Gathering XML schema collections
+28-02-2023 16:39:59	Gathering user-defined data types
+28-02-2023 16:39:59	Gathering user-defined types
+28-02-2023 16:39:59	Gathering table types
+28-02-2023 16:39:59	Gathering unique keys for table types
+28-02-2023 16:39:59	Gathering primary keys for table types
+28-02-2023 16:40:00	Gathering indexes for table types
+28-02-2023 16:40:00	Gathering check constraints for table types
+28-02-2023 16:40:00	Gathering default constraints for table types
+28-02-2023 16:40:00	Gathering partition functions
+28-02-2023 16:40:00	Gathering partition schemes
+28-02-2023 16:40:00	Gathering functions
+28-02-2023 16:40:00	Gathering encrypted functions
+28-02-2023 16:40:00	Gathering aggregates
+28-02-2023 16:40:00	Gathering procedures
+28-02-2023 16:40:00	Gathering encrypted procedures
+28-02-2023 16:40:00	Gathering tables
+28-02-2023 16:40:00	Gathering primary keys
+28-02-2023 16:40:00	Gathering unique constraints
+28-02-2023 16:40:00	Gathering foreign keys
+28-02-2023 16:40:00	Gathering default constraints
+28-02-2023 16:40:00	Gathering check constraints
+28-02-2023 16:40:00	Gathering views
+28-02-2023 16:40:00	Gathering encrypted views
+28-02-2023 16:40:00	Gathering indexes
+28-02-2023 16:40:00	Gathering statistics
+28-02-2023 16:40:00	Gathering full-text index stoplists
+28-02-2023 16:40:00	Gathering search property lists
+28-02-2023 16:40:00	Gathering search properties
+28-02-2023 16:40:00	Gathering full-text indexes
+28-02-2023 16:40:00	Gathering column store indexes
+28-02-2023 16:40:00	Gathering spatial indexes
+28-02-2023 16:40:00	Gathering XML indexes
+28-02-2023 16:40:00	Gathering Selective XML indexes
+28-02-2023 16:40:00	Gathering encrypted triggers
+28-02-2023 16:40:00	Gathering triggers
+28-02-2023 16:40:00	Gathering encrypted and clr ddl triggers
+28-02-2023 16:40:00	Gathering ddl triggers
+28-02-2023 16:40:00	Creating edge constraints
+28-02-2023 16:40:00	Gathering synonyms
+28-02-2023 16:40:00	Gathering defaults
+28-02-2023 16:40:00	Gathering data constraint uddt bindings
+28-02-2023 16:40:00	Gathering rules
+28-02-2023 16:40:00	Gathering data constraint uddt bindings
+28-02-2023 16:40:00	Gathering message types
+28-02-2023 16:40:00	Gathering queues
+28-02-2023 16:40:00	Gathering contracts
+28-02-2023 16:40:00	Gathering services
+28-02-2023 16:40:00	Gathering event notifications
+28-02-2023 16:40:00	Gathering remote service bindings
+28-02-2023 16:40:00	Gathering broker priorities
+28-02-2023 16:40:00	Gathering signatures
+28-02-2023 16:40:00	Gathering data compression options
+28-02-2023 16:40:00	Gathering sequence types
+28-02-2023 16:40:00	Gathering security policies
+28-02-2023 16:40:00	Gather column encryption keys
+28-02-2023 16:40:00	Gathering column master keys
+28-02-2023 16:40:00	Gathering external data sources
+28-02-2023 16:40:00	Gathering external file formats
+28-02-2023 16:40:00	Gathering external tables
+28-02-2023 16:40:00	Gathering extended properties
+28-02-2023 16:40:00	Gathering assemblies
+28-02-2023 16:40:01	Gathering credentials
+28-02-2023 16:40:01	Gathering logins
+28-02-2023 16:40:01	Gathering server audits
+28-02-2023 16:40:01	Scanning project for duplicate elements
+28-02-2023 16:40:01	Finished duplicate element processing
+28-02-2023 16:40:02	Finished importing database.
+28-02-2023 16:40:02	A summary of the import was saved to the following location: D:\Net5ApiProj\KaniniApiProject\EmployeeDB\Import Schema Logs\EmployeeDB_20230228110950.log
+28-02-2023 16:40:02	Click Finish to continue...

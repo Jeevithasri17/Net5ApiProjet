@@ -1,0 +1,15 @@
+D:\Net5ApiProj\KaniniApiProject\Kanini.Model\bin\Debug\net5.0\Kanini.Model.deps.json
+D:\Net5ApiProj\KaniniApiProject\Kanini.Model\bin\Debug\net5.0\Kanini.Model.runtimeconfig.json
+D:\Net5ApiProj\KaniniApiProject\Kanini.Model\bin\Debug\net5.0\Kanini.Model.runtimeconfig.dev.json
+D:\Net5ApiProj\KaniniApiProject\Kanini.Model\bin\Debug\net5.0\Kanini.Model.dll
+D:\Net5ApiProj\KaniniApiProject\Kanini.Model\bin\Debug\net5.0\ref\Kanini.Model.dll
+D:\Net5ApiProj\KaniniApiProject\Kanini.Model\bin\Debug\net5.0\Kanini.Model.pdb
+D:\Net5ApiProj\KaniniApiProject\Kanini.Model\obj\Debug\net5.0\Kanini.Model.csproj.AssemblyReference.cache
+D:\Net5ApiProj\KaniniApiProject\Kanini.Model\obj\Debug\net5.0\Kanini.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Net5ApiProj\KaniniApiProject\Kanini.Model\obj\Debug\net5.0\Kanini.Model.AssemblyInfoInputs.cache
+D:\Net5ApiProj\KaniniApiProject\Kanini.Model\obj\Debug\net5.0\Kanini.Model.AssemblyInfo.cs
+D:\Net5ApiProj\KaniniApiProject\Kanini.Model\obj\Debug\net5.0\Kanini.Model.csproj.CoreCompileInputs.cache
+D:\Net5ApiProj\KaniniApiProject\Kanini.Model\obj\Debug\net5.0\Kanini.Model.dll
+D:\Net5ApiProj\KaniniApiProject\Kanini.Model\obj\Debug\net5.0\ref\Kanini.Model.dll
+D:\Net5ApiProj\KaniniApiProject\Kanini.Model\obj\Debug\net5.0\Kanini.Model.pdb
+D:\Net5ApiProj\KaniniApiProject\Kanini.Model\obj\Debug\net5.0\Kanini.Model.genruntimeconfig.cache
