@@ -13,7 +13,7 @@
     </RootPath>
     <RootNamespace>EmployeeDB</RootNamespace>
     <AssemblyName>EmployeeDB</AssemblyName>
-    <ModelCollation>1033, CI</ModelCollation>
+    <ModelCollation>1033,CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -22,6 +22,8 @@
     <SqlServerVerification>False</SqlServerVerification>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -56,5 +58,60 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="EmployeeDB\" />
+    <Folder Include="EmployeeDB\Tables\" />
+    <Folder Include="Book\" />
+    <Folder Include="Book\Tables\" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="Product\" />
+    <Folder Include="Product\Tables\" />
+    <Folder Include="Error\" />
+    <Folder Include="Error\Tables\" />
+    <Folder Include="dbo\Functions\" />
+    <Folder Include="Book\Stored Procedures\" />
+    <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="EmployeeDB\Stored Procedures\" />
+    <Folder Include="dbo\User Defined Types\" />
+    <Folder Include="Security\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="EmployeeDB\Tables\EmployeeTbl.sql" />
+    <Build Include="EmployeeDB\Tables\EmployeeUpdateTbl.sql" />
+    <Build Include="Book\Tables\Books.sql" />
+    <Build Include="Book\Tables\Authors.sql" />
+    <Build Include="Book\Tables\BookAuthors.sql" />
+    <Build Include="Book\Tables\BooksUpdated.sql" />
+    <Build Include="dbo\Tables\EmpTest.sql" />
+    <Build Include="EmployeeDB\Tables\Folders.sql" />
+    <Build Include="dbo\Tables\Employee.sql" />
+    <Build Include="dbo\Tables\Department.sql" />
+    <Build Include="EmployeeDB\Tables\sales.sql" />
+    <Build Include="dbo\Tables\EmployeeDepartmentMapping.sql" />
+    <Build Include="EmployeeDB\Tables\Employee.sql" />
+    <Build Include="EmployeeDB\Tables\Department.sql" />
+    <Build Include="EmployeeDB\Tables\EmployeeDepartmentMapping.sql" />
+    <Build Include="Product\Tables\ProductDetails.sql" />
+    <Build Include="Error\Tables\ErrorLog.sql" />
+    <Build Include="EmployeeDB\Tables\ErrorLog.sql" />
+    <Build Include="dbo\Functions\dbo.GetLast12DigitsFromGUID.sql" />
+    <Build Include="dbo\Functions\GetLast12DigitsFromGUID.sql" />
+    <Build Include="dbo\Functions\GetLast12CharsFromGUID.sql" />
+    <Build Include="Book\Stored Procedures\MergeAndUpdateBooksAndAuthors.sql" />
+    <Build Include="dbo\Stored Procedures\EmployeeDetails.sql" />
+    <Build Include="dbo\Stored Procedures\sp_UpdateEmployee.sql" />
+    <Build Include="EmployeeDB\Stored Procedures\GetEmployeeCountByDepartment.sql" />
+    <Build Include="EmployeeDB\Stored Procedures\GetAllEmployees.sql" />
+    <Build Include="EmployeeDB\Stored Procedures\AddEmployee.sql" />
+    <Build Include="dbo\Stored Procedures\GetEmployeeCountByDepartment.sql" />
+    <Build Include="EmployeeDB\Stored Procedures\UpdateEmployee.sql" />
+    <Build Include="EmployeeDB\Stored Procedures\DeleteEmployee.sql" />
+    <Build Include="EmployeeDB\Stored Procedures\GetEmployeeById.sql" />
+    <Build Include="EmployeeDB\Stored Procedures\sp_UpdateEmployee.sql" />
+    <Build Include="dbo\User Defined Types\Type_Employee.sql" />
+    <Build Include="Security\Book.sql" />
+    <Build Include="Security\EmployeeDB.sql" />
+    <Build Include="Security\Error.sql" />
+    <Build Include="Security\Product.sql" />
   </ItemGroup>
 </Project>

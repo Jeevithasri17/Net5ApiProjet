@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "Kanini.Api/1.0.0": {
         "dependencies": {
+          "BCrypt.Net": "0.1.0",
           "Kanini.Model": "1.0.0",
           "Kanini.Repository": "1.0.0",
           "Kanini.Repository.Interface": "1.0.0",
@@ -329,6 +330,17 @@
         },
         "compile": {
           "Kanini.Api.dll": {}
+        }
+      },
+      "BCrypt.Net/0.1.0": {
+        "runtime": {
+          "lib/net35/BCrypt.Net.dll": {
+            "assemblyVersion": "0.1.4141.31969",
+            "fileVersion": "0.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/net35/BCrypt.Net.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -3149,6 +3161,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BCrypt.Net/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sST2w361Dxt9GGMfpOTiK50wXGV64Ybb1hiX3xjEWnhVYZNF43NuySGwADJa7X1R+bA53NsFR+tuDxcYiJeIOA==",
+      "path": "bcrypt.net/0.1.0",
+      "hashPath": "bcrypt.net.0.1.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

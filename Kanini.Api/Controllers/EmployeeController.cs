@@ -30,7 +30,7 @@ namespace Kanini.Api.Controllers
         /// <summary>
         /// To insert a employee detail
         /// </summary>
-        /// <param name="employee">Employee objec contains Fname, Lname, role</param>
+        /// <param name="employee">Employee object contains name, email, phone</param>
         /// <returns></returns>
         [HttpPost("AddEmployee")]
         public string AddEmployee(Employee employee)
@@ -38,18 +38,33 @@ namespace Kanini.Api.Controllers
             return employeeservice.AddEmployee(employee);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="employee">Updates name, email, phone of employee</param>
+        /// <returns></returns>
         [HttpPut("UpdateEmployee")]
         public string UpdateEmployee(Employee employee)
         {
             return employeeservice.UpdateEmployee(employee);
         }
-
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="employeeId">Deletes employee record</param>
+        /// <returns></returns>
         [HttpDelete("DeleteEmployee")]
         public string DeleteEmployee(Guid employeeId)
         {
             return employeeservice.DeleteEmployee(employeeId);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="employeeId">Retrives employee detail for given Id</param>
+        /// <returns></returns>
         [HttpGet("GetEmployeeById")]
         public Employee GetEmployeeById(Guid employeeId)
         {

@@ -1,3 +1,10 @@
+D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\Kanini.Api.csproj.AssemblyReference.cache
+D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\Kanini.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\Kanini.Api.AssemblyInfoInputs.cache
+D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\Kanini.Api.AssemblyInfo.cs
+D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\Kanini.Api.csproj.CoreCompileInputs.cache
+D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\Kanini.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\Kanini.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\Net5ApiProj\KaniniApiProject\Kanini.Api\bin\Debug\net5.0\appsettings.Development.json
 D:\Net5ApiProj\KaniniApiProject\Kanini.Api\bin\Debug\net5.0\appsettings.json
 D:\Net5ApiProj\KaniniApiProject\Kanini.Api\bin\Debug\net5.0\Kanini.Api.exe
@@ -7,6 +14,7 @@ D:\Net5ApiProj\KaniniApiProject\Kanini.Api\bin\Debug\net5.0\Kanini.Api.runtimeco
 D:\Net5ApiProj\KaniniApiProject\Kanini.Api\bin\Debug\net5.0\Kanini.Api.dll
 D:\Net5ApiProj\KaniniApiProject\Kanini.Api\bin\Debug\net5.0\ref\Kanini.Api.dll
 D:\Net5ApiProj\KaniniApiProject\Kanini.Api\bin\Debug\net5.0\Kanini.Api.pdb
+D:\Net5ApiProj\KaniniApiProject\Kanini.Api\bin\Debug\net5.0\BCrypt.Net.dll
 D:\Net5ApiProj\KaniniApiProject\Kanini.Api\bin\Debug\net5.0\Humanizer.dll
 D:\Net5ApiProj\KaniniApiProject\Kanini.Api\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 D:\Net5ApiProj\KaniniApiProject\Kanini.Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
@@ -53,13 +61,6 @@ D:\Net5ApiProj\KaniniApiProject\Kanini.Api\bin\Debug\net5.0\Kanini.Repository.In
 D:\Net5ApiProj\KaniniApiProject\Kanini.Api\bin\Debug\net5.0\Kanini.Repository.pdb
 D:\Net5ApiProj\KaniniApiProject\Kanini.Api\bin\Debug\net5.0\Kanini.Service.Interface.pdb
 D:\Net5ApiProj\KaniniApiProject\Kanini.Api\bin\Debug\net5.0\Kanini.Service.pdb
-D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\Kanini.Api.csproj.AssemblyReference.cache
-D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\Kanini.Api.GeneratedMSBuildEditorConfig.editorconfig
-D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\Kanini.Api.AssemblyInfoInputs.cache
-D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\Kanini.Api.AssemblyInfo.cs
-D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\Kanini.Api.csproj.CoreCompileInputs.cache
-D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\Kanini.Api.MvcApplicationPartsAssemblyInfo.cs
-D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\Kanini.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\staticwebassets\Kanini.Api.StaticWebAssets.Manifest.cache
 D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\staticwebassets\Kanini.Api.StaticWebAssets.xml
 D:\Net5ApiProj\KaniniApiProject\Kanini.Api\obj\Debug\net5.0\scopedcss\bundle\Kanini.Api.styles.css

@@ -1,0 +1,6 @@
+D:\Net5ApiProj\KaniniApiProject\EmployeeDB\bin\Debug\EmployeeDB.dacpac
+D:\Net5ApiProj\KaniniApiProject\EmployeeDB\bin\Debug\EmployeeDB.dll
+D:\Net5ApiProj\KaniniApiProject\EmployeeDB\bin\Debug\EmployeeDB.pdb
+D:\Net5ApiProj\KaniniApiProject\EmployeeDB\obj\Debug\EmployeeDB.dll
+D:\Net5ApiProj\KaniniApiProject\EmployeeDB\obj\Debug\EmployeeDB.pdb
+D:\Net5ApiProj\KaniniApiProject\EmployeeDB\obj\Debug\EmployeeDB.sqlproj.AssemblyReference.cache

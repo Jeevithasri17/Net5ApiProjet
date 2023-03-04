@@ -35,6 +35,7 @@ namespace Kanini.Service
         public virtual DbSet<Folder> Folders { get; set; }
         public virtual DbSet<ProductDetail> ProductDetails { get; set; }
         public virtual DbSet<Sale> Sales { get; set; }
+        public virtual DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -296,6 +297,29 @@ namespace Kanini.Service
                     .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("salesperson");
+            });
+
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.ToTable("Users", "EmployeeDB");
+
+                entity.HasIndex(e => e.Username, "UQ__Users__536C85E44245B3A0")
+                    .IsUnique();
+
+                entity.HasIndex(e => e.Email, "UQ__Users__A9D10534669F90F9")
+                    .IsUnique();
+
+                entity.Property(e => e.Email)
+                    .IsRequired()
+                    .HasMaxLength(100);
+
+                entity.Property(e => e.Password)
+                    .IsRequired()
+                    .HasMaxLength(255);
+
+                entity.Property(e => e.Username)
+                    .IsRequired()
+                    .HasMaxLength(50);
             });
 
             OnModelCreatingPartial(modelBuilder);
